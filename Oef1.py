@@ -9,3 +9,4 @@ print(" Het totale aantal seconden bedraagt: ", time)
 
 
 #Test , dit is een eerste wijziging.
+#Test 2 , dit is een tweede wijziging
