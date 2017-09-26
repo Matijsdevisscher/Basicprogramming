@@ -7,3 +7,5 @@ seconds= int(input("Geef het aantal seconden op: "))
 time = days + hours + minutes + seconds
 print(" Het totale aantal seconden bedraagt: ", time)
 
+
+#Test , dit is een eerste wijziging.
