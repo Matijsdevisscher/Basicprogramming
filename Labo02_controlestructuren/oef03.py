@@ -1,8 +1,11 @@
 
-
+import datetime
 geboortejaar = int(input("Wat is uw geboortejaar? "))
 
-if (geboortejaar < 1998):
-    print("Ok, u mag alcohol drinken")
+limiet = datetime.datetime.now().year -18
+
+if (geboortejaar > limiet):
+    print("Je bent te jong")
 else:
-    print("U bent nog geen 18! Kom volgend jaar terug")
+    print("let's drink")
+
