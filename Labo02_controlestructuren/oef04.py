@@ -9,7 +9,7 @@ elif(getal1 == 1):
 elif(getal1 == 2):
     print("Deze leeftijd komt overeen met 22 mensenjaren")
 else:
-    resultaat = 22 + getal1 + 3*5
+    resultaat = 22 + (getal1 -2) * 5
     print(resultaat)
 
 
