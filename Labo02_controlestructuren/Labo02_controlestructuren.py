@@ -9,3 +9,4 @@ if (getalA == getalB):
 else:
      print("Het getal (0) en het getal (1) zijn verschillend" .format(getalA,getalB))
 
+
