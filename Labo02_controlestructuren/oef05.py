@@ -2,4 +2,7 @@
 
 score = int(input("Geef jouw decimale score van de module op: "))
 
-if (score < 0.5)
+if (score < Float.5):
+    print("Volgende keer beter")
+else:
+    print("U bent geslaagd")
