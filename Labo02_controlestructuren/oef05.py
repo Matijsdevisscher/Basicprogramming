@@ -1,8 +1,20 @@
 #oefening 5 week02
 
-score = int(input("Geef jouw decimale score van de module op: "))
+import math
+score = float(input("Geef jouw decimale score van de module op: "))
 
-if (score < Float.5):
-    print("Volgende keer beter")
-else:
+deelNaKomma = score - int(score)
+
+if (deelNaKomma<=0.5):
+    score = math.floor(score)
     print("U bent geslaagd")
+else:
+    score = math.ceil(score)
+    print("U bent niet geslaagd")
+if (score<10):
+    print(str(round(score)) + "Sorry. Niet geslaagd")
+else:
+    print(str(round(score)) + "Perfect")
+
+print(score)
+

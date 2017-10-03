@@ -8,4 +8,4 @@ leeftijd = leeftijd + 10
 #naam = "dev"
 #print("Welkom!" , voornaam, "\t", naam )
 
-print( "Welkom (0). Jouw naam is (1). \njij bent (2:.2f) jaar.".format(voonaam, naam, "iets"))
+print( "Welkom {0}. Jouw naam is {1}. \njij bent {2:.2f} jaar.".format(voonaam, naam, "iets"))
