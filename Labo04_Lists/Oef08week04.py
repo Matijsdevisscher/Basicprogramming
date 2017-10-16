@@ -6,7 +6,7 @@ my_list = [25, 50 , 75, 100, 125, 150]
 
 def som_num_lists(my_list):
     sum = 0
-    sum(som_num_lists)
+    sum(my_list)
     print(sum)
 
 
